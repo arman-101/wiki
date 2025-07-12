@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #FFFBDE;
+}
+
+header img {
+    width: 65px !important;
+    height: auto; /* Maintain aspect ratio */
+    background-color: white;
+    border-radius: 35px;
+}
+
+#header {
+    background-color: #91C8E4;
+    color: #4682A9;
+}
+
+#content-table {
+    border-radius: 0.5rem; /* Adjust the value for more/less rounding (e.g., 0.25rem for subtle, 1rem for more pronounced) */
+    overflow: hidden; /* Ensures content respects the rounded corners */
+}
+
+#year {
+    cursor: pointer;
+}
