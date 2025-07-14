@@ -54,7 +54,7 @@ function listenForm() {
 async function fetchData(day, month, event) {
   try {
     const response = await fetch(
-      `http://history.muffinlabs.com/date/${month}/${day}`
+      `https://history.muffinlabs.com/date/${month}/${day}`
     );
 
     if (!response.ok) {
