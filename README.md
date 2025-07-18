@@ -1,0 +1,3 @@
+- Used the history API - https://history.muffinlabs.com/
+- Icons from FlatIcon
+- Fun little side project!
